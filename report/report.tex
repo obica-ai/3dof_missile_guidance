@@ -4,6 +4,7 @@
 \usepackage{hyperref}
 \usepackage{ragged2e}
 \usepackage{tikz}
+\usepackage{natbib}
 \usetikzlibrary{arrows.meta}
 
 \title{3DOF Missile Simulation Report}
@@ -563,10 +564,16 @@ As shown in Figure 2-1, the working principle of the 3DOF guidance control loop 
 
   gravitational acceleration: \( 9.81 \, \text{m/s}^2 \)
 
+\newpage
+
+
+\cite{cite-key}
+\bibliographystyle{plainnat} % or another style (plain, abbrv, etc.)
+\bibliography{reference}  
 
 
 
-
+\newpage
 \section{Matlab analysis  }
 \includegraphics[width=\textwidth]{report4.png}
 \includegraphics[width=\textwidth]{report1.png}
